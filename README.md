@@ -44,7 +44,10 @@ pip install fastapi uvicorn pymongo requests python-dotenv certifi yfinance stre
 # Treminal 1:
 uvicorn api:app --reload
 
-# Terminal 2:
+# Terminal2
+python mcp_server.py
+
+# Terminal 3:
 streamlit run dashboard.py
 
 ### Manual Pipeline Commands (optional)
